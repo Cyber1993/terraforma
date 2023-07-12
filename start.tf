@@ -24,7 +24,7 @@ resource "aws_instance" "EC2-Instance" {
   }
 
   // User script
-  user_data = file("files/install.sh")
+  //user_data = file("files/install.sh")
 
   // Tags
   tags = {
