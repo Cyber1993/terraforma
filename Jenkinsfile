@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Shell2') {
             steps {
-                sh 'ls /home/'
+                sh 'ip addr'
             }
         }
         stage('Shell1') {
