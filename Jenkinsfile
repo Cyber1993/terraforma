@@ -11,15 +11,6 @@ pipeline {
                 sh 'terraform init'
             }
         }
-        stage('Shell2') {
-            steps {
-                sh 'terraform plan'
-            }
-        }
-        stage('start') {
-            steps {
-                sh 'terraform apply'                
-            }
-        }
+        
     }
 }
